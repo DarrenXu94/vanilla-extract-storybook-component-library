@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "esnext",
+    "jsx": "react",
+    "allowJs": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationDir": "lib",
+    "skipLibCheck": true
+  },
+  "include": ["./src/**/*"],
+
+  "exclude": ["node_modules", "lib", "dist", "./src/**/*.stories.tsx"]
+}
